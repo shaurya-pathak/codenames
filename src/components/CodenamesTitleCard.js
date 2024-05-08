@@ -1,6 +1,6 @@
 // src/components/CodenamesTitleCard.js
 import React from 'react';
-import { Box, Heading, Text, VStack } from '@chakra-ui/react';
+import { Heading, VStack } from '@chakra-ui/react';
 
 const CodenamesTitleCard = () => {
   return (
