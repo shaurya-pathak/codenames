@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Codenames - Web-based Game Implementation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Codenames game! This is a web-based version of the popular word-guessing board game. The game is implemented using React and Chakra UI.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Project Description](#project-description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Game Rules](#game-rules)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Project Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Codenames is a word-guessing game where two teams compete to identify their agents based on one-word clues given by their team's spymaster. This web version aims to replicate the excitement of the original game.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Team Assignment**: Assign yourself to a team or become a spymaster.
+- **Dynamic Game Board**: Word cards are dynamically assigned and shuffled at the start.
+- **Win/Loss Detection**: The game detects and displays the winning team.
+- **Interactive Gameplay**: Players interact with the game board to select cards and guess words.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **Frontend**: React (with Chakra UI for styling)
+- **State Management**: React Hooks
+- **Version Control**: Git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/shaurya-pathak/codenames.git
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Navigate to the Project Folder**:
+    ```bash
+    cd codenames
+    ```
 
-### `npm run eject`
+3. **Install Dependencies**:
+    Ensure you have Node.js installed, then run:
+    ```bash
+    npm install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Run the Development Server**:
+    ```bash
+    npm start
+    ```
+    The server will start on `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Game Rules
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Teams**:
+    - The game has two teams: Red and Blue.
+    - Each team has one spymaster who gives one-word clues.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Objectives**:
+    - The spymasters aim to guide their teammates to identify their team's words on the board.
+    - The team must avoid revealing the opposing team's words or the "bomb."
 
-## Learn More
+3. **Winning Conditions**:
+    - A team wins by revealing all their words or if the opposing team reveals the bomb.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+We welcome contributions to improve this project! Please follow these steps:
 
-### Code Splitting
+1. Fork the repository.
+2. Create a new branch with a descriptive name.
+3. Make your changes and commit them with descriptive messages.
+4. Submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
