@@ -8,6 +8,7 @@ Welcome to the Codenames game! This is a web-based version of the popular word-g
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
+- [Game Screenshots](#game-screenshots)
 - [Game Rules](#game-rules)
 - [Contributing](#contributing)
 - [License](#license)
@@ -53,6 +54,20 @@ Codenames is a word-guessing game where two teams compete to identify their agen
     ```
     The server will start on `http://localhost:3000`.
 
+## Game Screenshots
+
+### Start Screen
+
+![Start Screen](./images/startscreen.png)
+
+### Join Game
+
+![Join Game](./images/join.png)
+
+### In-Game View
+
+![Game View](./images/game.png)
+
 ## Game Rules
 
 1. **Teams**:
@@ -78,4 +93,3 @@ We welcome contributions to improve this project! Please follow these steps:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
